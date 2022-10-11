@@ -10,6 +10,7 @@ namespace Arv
     {
         int Jump;
 
+        // constructor that takes in the inherited properties and its own property
         public Indochinese_Tiger(int Jump,string Sight, string name, string color, int age, string spices, string origin) : base(Sight, name, color, age, spices, origin)
         {
             this.Jump = Jump;
@@ -41,6 +42,7 @@ namespace Arv
         
         }
 
+        //We override the method to get different output from different animals.
         public override void MakeSound()
         {
             Console.WriteLine("Indonesiska Tigern {0} orkar inte låta, för att hon försöker att sova  ", name);

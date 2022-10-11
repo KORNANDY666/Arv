@@ -12,6 +12,8 @@ namespace Arv
 
         string Tusks { get; set; }
 
+        // constructor that takes in the inherited properties and its own property
+
         public Elephant(string Tusks,string name, string color, int age, string spices, string origin) : base(name, color, age, spices, origin)
         {
             this.Tusks = Tusks;
@@ -39,7 +41,7 @@ namespace Arv
         }
 
 
-
+        //We override the method to get different output from different animals.
         public override void MakeSound()
         {
             Console.WriteLine("Elefanten {0} gör ett högt ljud med sin snabel  ",name );

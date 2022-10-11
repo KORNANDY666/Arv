@@ -10,7 +10,13 @@ namespace Arv
 {
     internal class Tiger : Animal
     {
+        // 
+
         string Sight { get; set; }
+
+
+        
+        // constructor that takes in the inherited properties and its own property
 
         public Tiger(string Sight,string name, string color, int age, string spices, string origin) : base(name,color,age,spices,origin)
         {
@@ -37,11 +43,13 @@ namespace Arv
         
         }
 
+        //We override the method to get different output from different animals.
         public override void MakeSound()
         {
             Console.WriteLine("Tigern {0} gör ett WOHOO ",name);
         }
-        
+
+
 
 
     }
