@@ -8,7 +8,7 @@ namespace Arv
 {
     internal class Bengal_Tiger : Tiger
     {
-        bool Free;
+        bool Free {get; set;} = false;
 
         // constructor that takes in the inherited properties and its own property
         public Bengal_Tiger(bool Free,string sight, string name, string color, int age, string spices, string origin) : base(sight,name, color, age, spices, origin)

@@ -8,7 +8,7 @@ namespace Arv
 {
     internal class Indochinese_Tiger : Tiger
     {
-        int Jump;
+        int Jump { get; set; } = 0;
 
         // constructor that takes in the inherited properties and its own property
         public Indochinese_Tiger(int Jump,string Sight, string name, string color, int age, string spices, string origin) : base(Sight, name, color, age, spices, origin)

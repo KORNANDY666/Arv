@@ -9,10 +9,9 @@ using System.Xml.Linq;
 namespace Arv
 {
     internal class Tiger : Animal
-    {
-        // 
+    { 
 
-        string Sight { get; set; }
+        string Sight { get; set; } = "No Sight";
 
 
         

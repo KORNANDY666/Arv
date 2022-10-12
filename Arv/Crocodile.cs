@@ -8,7 +8,7 @@ namespace Arv
 {
     internal class Crocodile : Animal
     {
-        string Water { get; set; }
+        string Water { get; set; } = "No Water";
 
         // constructor that takes in the inherited properties and its own property
 

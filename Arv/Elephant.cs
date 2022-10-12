@@ -10,7 +10,7 @@ namespace Arv
     internal class Elephant : Animal
     {
 
-        string Tusks { get; set; }
+        string Tusks { get; set; } = "No Tusks";
 
         // constructor that takes in the inherited properties and its own property
 
